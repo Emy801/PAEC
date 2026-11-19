@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi compromiso con el reciclaje - Formulario</title>
+    <link rel="stylesheet" href="r.css">
+</head>
+<body>
+    <main>
+        <section class="form-container">
+            <h1>Mi compromiso con el reciclaje</h1>
+            <form action="resultado.php" method="POST">
+                
+                <label for="nombre">1. Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="edad">2. Edad:</label>
+                <input type="number" id="edad" name="edad" required><br><br>
+
+                <label for="grupo">3. Grupo:</label>
+                <input type="text" id="grupo" name="grupo" required><br><br>
+
+                <label for="residuo_frecuente">4. Residuo que generas con mayor frecuencia:</label>
+                <input type="text" id="residuo_frecuente" name="residuo_frecuente" required><br><br>
+
+                <label>5. ¿Separas tus residuos?</label>
+                <div class="radio-group">
+                    <input type="radio" id="sep_si" name="separas" value="Sí" required> <label for="sep_si">Sí</label><br>
+                    <input type="radio" id="sep_no" name="separas" value="No"> <label for="sep_no">No</label><br>
+                    <input type="radio" id="sep_algunas" name="separas" value="Algunas veces"> <label for="sep_algunas">Algunas veces</label>
+                </div>
+
+                <label>6. ¿Qué acción realizas para cuidar el ambiente?</label>
+                <div class="radio-group">
+                    <input type="radio" id="accion_1" name="accion" value="Reducir el uso de plástico" required> <label for="accion_1">Reducir el uso de plástico</label><br>
+                    <input type="radio" id="accion_2" name="accion" value="Separar residuos"> <label for="accion_2">Separar residuos</label><br>
+                    <input type="radio" id="accion_3" name="accion" value="Reutilizar materiales"> <label for="accion_3">Reutilizar materiales</label><br>
+                    <input type="radio" id="accion_4" name="accion" value="Participar en campañas"> <label for="accion_4">Participar en campañas</label><br>
+                    <input type="radio" id="accion_5" name="accion" value="Reciclar aparatos electrónicos"> <label for="accion_5">Reciclar aparatos electrónicos</label>
+                </div>
+
+                <label for="comentario">8. Comentario o propuesta:</label><br>
+                <textarea id="comentario" name="comentario" rows="4"></textarea><br><br>
+
+                
+                <a href="mailto:lilithtere@gmail.com">Enviar mail.</a> 
+                
+                <button type="submit" class="btn-enviar">Enviar compromiso</button>
+                
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>
