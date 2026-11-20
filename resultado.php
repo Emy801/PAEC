@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultado de tu Compromiso</title>
     <link rel="stylesheet" href="r.css">
 </head>
@@ -11,8 +10,7 @@
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="formulario.html
-                        ">Volver al Formulario</a></li>
+                <li><a href="https://emy801.github.io/PAEC/formulario.html">Volver al Formulario</a></li>
             </ul>
         </nav>
     </header>
