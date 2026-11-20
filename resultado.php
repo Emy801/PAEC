@@ -11,7 +11,8 @@
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="formulario.php">Volver al Formulario</a></li>
+                <li><a href="formulario.html
+                        ">Volver al Formulario</a></li>
             </ul>
         </nav>
     </header>
